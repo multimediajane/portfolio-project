@@ -54,6 +54,7 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+  border-radius: 5px;
 }
 
 .btn-primary:hover,
@@ -103,4 +104,11 @@ p {
 
 .section-3 {
   background: var(--secondery-color);
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
