@@ -28,6 +28,7 @@ h1 {
 
 p {
   font-weight: 400;
+  font-size: 25px;
 }
 
 .hero {
@@ -55,15 +56,51 @@ p {
   padding: 12px 20px;
 }
 
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #af5dff;
+  border-color: #fff;
+}
+
 .main {
   color: #8447ff;
 }
 
-.project-one {
-  background: var(--secondery-color);
-  padding: 75px 20px;
+.goodcry,
+.raven,
+.blueberries {
+  border-radius: 5px;
 }
 
-.goodcry {
-  border-radius: 5px;
+.raven {
+  filter: drop-shadow(1px 1px 15px #ffb2e6);
+}
+
+.goodcry,
+.blueberries {
+  filter: drop-shadow(1px 1px 15px #7014cc);
+}
+
+.raven p {
+  color: #8447ff;
+}
+
+.section-1 {
+  background: var(--secondery-color);
+}
+
+.section-2 {
+  background: #fff;
+}
+
+.section-2 p {
+  color: #8447ff;
+}
+
+.section-3 {
+  background: var(--secondery-color);
 }
