@@ -1,5 +1,6 @@
 :root {
   --branding-color: #d972ff;
+  --secondery-color: #8447ff;
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -30,7 +31,7 @@ p {
 }
 
 .hero {
-  background: #8447ff;
+  background: var(--secondery-color);
   text-align: center;
   padding: 160px 20px;
 }
