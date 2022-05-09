@@ -54,3 +54,16 @@ p {
   line-height: 27px;
   padding: 12px 20px;
 }
+
+.main {
+  color: #8447ff;
+}
+
+.project-one {
+  background: var(--secondery-color);
+  padding: 75px 20px;
+}
+
+.goodcry {
+  border-radius: 5px;
+}
