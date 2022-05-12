@@ -128,7 +128,7 @@ p {
     text-align: center;
   }
 
-  .about-hero {
+  .content-container {
     text-align: center;
   }
 }
@@ -137,23 +137,23 @@ p {
   border-radius: 300px;
 }
 
-.about-hero {
+.content-container {
   padding: 100px 20px;
 }
 
-.about-hero h1 {
+.content-container h1 {
   font-size: 50px;
 }
 
-.about-hero h2 {
+.content-container h2 {
   color: #000;
   font-size: 25px;
 }
 
-.about-hero p {
+.content-container p {
   color: #000;
 }
 
-.about-hero-text {
+.content-container-text {
   margin: 30px;
 }
