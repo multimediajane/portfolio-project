@@ -1,0 +1,138 @@
+:root {
+  --branding-color: #9529ff;
+  --secondery-color: #000;
+  --heading-font-family: "Poppins", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  color: #000;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 75px;
+  color: #9529ff;
+}
+
+p {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.hero {
+  background: var(--secondery-color);
+  text-align: center;
+}
+
+.hero p {
+  font-size: 25px;
+  margin: 0;
+}
+
+.hero h2 {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+}
+
+.btn-primary {
+  background: var(--branding-color);
+  border: none;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #af5dff;
+  border-color: #fff;
+}
+
+.main {
+  color: #8447ff;
+}
+
+.goodcry,
+.raven,
+.blueberries {
+  border-radius: 5px;
+}
+
+.raven {
+  filter: drop-shadow(1px 1px 15px #ffb2e6);
+}
+
+.raven p {
+  color: #8447ff;
+}
+
+.section-1 {
+  background: var(--secondery-color);
+}
+
+.section-2 {
+  background: #fff;
+}
+
+.section-2 p {
+  color: #8447ff;
+}
+
+.section-3 {
+  background: var(--secondery-color);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .section-1,
+  .section-2,
+  .section-3 {
+    text-align: center;
+    padding: 5px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+.me-photo {
+  border-radius: 300px;
+}
+
+.img-fluid {
+  border-radius: 5px;
+}

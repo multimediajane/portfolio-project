@@ -139,6 +139,7 @@ p {
 
 .content-container {
   padding: 100px 20px;
+  text-align: center;
 }
 
 .content-container h1 {
@@ -150,10 +151,19 @@ p {
   font-size: 25px;
 }
 
+.content-container h3 {
+  color: #fff;
+  font-size: 15px;
+}
+
 .content-container p {
   color: #000;
 }
 
 .content-container-text {
   margin: 30px;
+}
+
+.img-fluid {
+  border-radius: 5px;
 }
