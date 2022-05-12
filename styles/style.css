@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #d972ff;
-  --secondery-color: #8447ff;
+  --branding-color: #9529ff;
+  --secondery-color: #000;
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -23,7 +23,7 @@ h6 {
 h1 {
   font-family: "Permanent Marker", cursive;
   font-size: 75px;
-  color: #ffb2e6;
+  color: #9529ff;
 }
 
 p {
@@ -55,6 +55,7 @@ p {
   line-height: 27px;
   padding: 12px 20px;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .btn-primary:hover,
@@ -79,11 +80,6 @@ p {
 
 .raven {
   filter: drop-shadow(1px 1px 15px #ffb2e6);
-}
-
-.goodcry,
-.blueberries {
-  filter: drop-shadow(1px 1px 15px #7014cc);
 }
 
 .raven p {
@@ -111,4 +107,25 @@ p {
     padding: 0;
     text-align: center;
   }
+}
+
+.me-photo {
+  border-radius: 300px;
+}
+
+.about-hero {
+  padding: 160px 20px;
+}
+
+.about-hero h1 {
+  font-size: 50px;
+}
+
+.about-hero h2 {
+  color: #000;
+  font-size: 25px;
+}
+
+.about-hero p {
+  color: #000;
 }
