@@ -102,9 +102,33 @@ p {
   background: var(--secondery-color);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .section-1,
+  .section-2,
+  .section-3 {
+    text-align: center;
+    padding: 5px;
+  }
+
   .project-description {
     padding: 0;
+    text-align: center;
+  }
+
+  .about-hero {
     text-align: center;
   }
 }
@@ -114,7 +138,7 @@ p {
 }
 
 .about-hero {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .about-hero h1 {
@@ -128,4 +152,8 @@ p {
 
 .about-hero p {
   color: #000;
+}
+
+.about-hero-text {
+  margin: 30px;
 }
