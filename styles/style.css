@@ -29,6 +29,7 @@ h1 {
 p {
   font-weight: 400;
   font-size: 25px;
+  line-height: 1.5;
 }
 
 nav {
@@ -105,15 +106,17 @@ footer {
 
 .main {
   color: #8447ff;
+  padding: 60px 60px;
 }
 
 .goodcry,
 .raven,
 .blueberries {
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
-.raven p {
+.raven p,
+h2 {
   color: #8447ff;
 }
 
@@ -151,16 +154,18 @@ footer {
   .section-2,
   .section-3 {
     text-align: center;
-    padding: 5px;
   }
 
   .project-description {
-    padding: 0;
     text-align: center;
   }
 
   .content-container {
     text-align: center;
+  }
+
+  .me-photo {
+    max-width: 300px;
   }
 
   nav a {
@@ -173,7 +178,7 @@ footer {
 }
 
 .content-container {
-  padding: 100px 20px;
+  padding: 100px 0px;
   text-align: center;
 }
 
@@ -196,7 +201,7 @@ footer {
 }
 
 .content-container-text {
-  margin: 30px;
+  padding: 30px;
 }
 
 .img-fluid {
