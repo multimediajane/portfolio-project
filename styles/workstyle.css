@@ -70,6 +70,7 @@ footer {
 .hero {
   background: var(--secondery-color);
   text-align: center;
+  padding: 25px 20px;
 }
 
 .hero p {
