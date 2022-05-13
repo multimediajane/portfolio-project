@@ -160,6 +160,10 @@ nav li.active a {
   .content-container {
     text-align: center;
   }
+
+  nav a {
+    font-size: 14px;
+  }
 }
 
 .me-photo {
