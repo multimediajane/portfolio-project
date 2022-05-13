@@ -113,10 +113,6 @@ footer {
   border-radius: 5px;
 }
 
-.raven {
-  filter: drop-shadow(1px 1px 15px #ffb2e6);
-}
-
 .raven p {
   color: #8447ff;
 }
